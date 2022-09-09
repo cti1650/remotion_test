@@ -9,6 +9,6 @@ tasks:
     wget https://github.com/jeromewu/docker-workspace/raw/master/vim.zip -O /tmp/vim.zip &> /dev/null &&
     unzip /tmp/vim.zip -d /home/gitpod &> /dev/null &&
     yarn install && yarn run build
-    command: yarn run start
+  command: yarn run start
 
 
